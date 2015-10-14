@@ -60,6 +60,7 @@ a.button:hover,
 div.exposed-filters input#edit-submit:hover {
   background: #0074BD; /*  darker blue on rollover */
   color: #fff;
+  text-decoration: underline;
 }
 
 input.form-submit:active,
@@ -83,6 +84,7 @@ input#edit-submit-admin-views-node
  {
    color: #fff;
    background: #4d8f46;  /* green background*/
+   
 }
 
 input#edit-submit:hover,
@@ -95,6 +97,7 @@ input#edit-submit-admin-views-node:hover
 
  {
   background: #0a6700; /*  darker green on rollover */
+  text-decoration: underline;
 }
 
 input#edit-submit:active,
@@ -126,6 +129,7 @@ input#edit-remove:hover,
 input#edit-clear:hover,
 body.page-admin-modules-uninstall input#edit-submit:hover {
     background: #990000;  /* darker red on rollover */
+	text-decoration: underline;
 }
 
 input#edit-delete:active,
@@ -159,6 +163,7 @@ input#edit-next:hover,
 input#preview-submit:hover,
 input[id^="edit-return"]:hover {
   background: #004c99;
+  text-decoration: underline;
 }
 
 input#edit-preview:active,
@@ -186,7 +191,7 @@ a#edit-cancel,a#edit-actions-cancel {
 #edit-actions-cancel:hover,
 input#edit-buttons-revert:hover {
   background: #ef6114;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 #edit-cancel:active,
