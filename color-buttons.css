@@ -114,6 +114,7 @@ input#remove-button,
 input#edit-remove,
 input#edit-clear,
 .page-admin-modules-uninstall input#edit-submit,
+#node-delete-confirm input#edit-submit,
 
 input.button-remove { 
    color: #fff;
@@ -124,7 +125,11 @@ input#edit-delete:hover,
 input#remove-button:hover,
 input#edit-remove:hover,
 input#edit-clear:hover,
-body.page-admin-modules-uninstall input#edit-submit:hover {
+body.page-admin-modules-uninstall input#edit-submit:hover,
+#node-delete-confirm input#edit-submit:hover,
+input.button-remove:hover
+
+{
     background: #990000;  /* darker red on rollover */
 }
 
